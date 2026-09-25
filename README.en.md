@@ -2,6 +2,11 @@
 
 [繁體中文](README.md)
 
+## Quick links
+
+- [Full workflow](WORKFLOW.en.md) · [Review prompt template](templates/REVIEW-PROMPTS.en.md) · [Session record template](templates/SESSION-RECORD.en.md)
+- [完整流程（繁中）](WORKFLOW.md) · [審查提示詞範本](templates/REVIEW-PROMPTS.md) · [任務紀錄表範本](templates/SESSION-RECORD.md)
+
 This workflow positions **Codex running GPT-6 Luna as a lower-cost message coordinator**. Luna receives the user's request, routes it to the side-panel Pro web conversation (model label shown as GPT-6), sends the resulting plan to Claude Code and Agent Teams for cross-checking, and returns their findings to Pro for revision.
 
 Luna's main job is routing messages, enforcing discussion limits, organizing review points, and keeping records. Pro drafts the plan; Claude Code and Agent Teams review it. This design reduces the risk that one model carries the same assumptions or blind spots from planning into its own review. Using a lower-cost model for coordination is a cost-control goal; this document does not claim measured savings.

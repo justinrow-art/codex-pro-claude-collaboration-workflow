@@ -2,6 +2,11 @@
 
 [English](README.en.md)
 
+## 快速入口｜Quick links
+
+- [完整流程（繁中）](WORKFLOW.md) · [審查提示詞範本](templates/REVIEW-PROMPTS.md) · [任務紀錄表範本](templates/SESSION-RECORD.md)
+- [Full workflow (English)](WORKFLOW.en.md) · [Review prompt template](templates/REVIEW-PROMPTS.en.md) · [Session record template](templates/SESSION-RECORD.en.md)
+
 這個流程把 **Codex（GPT-6 Luna）定位為低成本的訊息協調者**：它接收使用者需求，把問題送到側欄的 Pro 網頁對話（模型介面顯示 GPT-6），再把計畫交給 Claude Code 和 Agent Teams 交叉檢核，最後把意見帶回 Pro 修訂。
 
 Luna 的主要工作是傳遞訊息、管理討論上限、整理意見和保留紀錄；計畫由 Pro 提出，審查由 Claude Code 與 Agent Teams 負責。這樣設計是為了降低只由同一模型擬定並自我審查時，可能延續相同假設或盲點的風險。使用較低成本的模型承擔協調工作，是成本控制目標；本文件不宣稱已量測實際節省金額。
